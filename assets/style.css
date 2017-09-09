@@ -146,9 +146,9 @@ body {
 .nav.is-fixed .nav__links a {
     color: #fff;
 }
-.register-button,
-.register-button:visited,
-.register-button:active {
+a.register-button,
+a.register-button:visited,
+a.register-button:active {
     display: inline-block;
     text-decoration: none;
     background: #d15b43;
@@ -157,15 +157,15 @@ body {
     border-radius: 3px;
     line-height: 2em;
 }
-.register-button:hover {
+a.register-button:hover {
     outline: 2px solid #fff;
 }
-.register-button.disabled {
+a.register-button.disabled {
     outline: none;
     background: rgba(127, 127, 127, .8);
     color: rgba(255, 255, 255, .5)
 }
-.register-button.disabled:hover .tip {
+a.register-button.disabled:hover .tip {
     display: block;
 }
 .tip {
