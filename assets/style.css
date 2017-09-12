@@ -385,6 +385,8 @@ section.even::after {
 }
 .section-sponsor img {
     margin: 1em 2em 0;
+	width: auto;
+	height: 48px;
 }
 .staff-list {
     list-style: none;
