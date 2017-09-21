@@ -391,13 +391,15 @@ section.even::after {
 .staff-list {
     list-style: none;
     padding: 0;
-    margin: 1em 0;
+    margin: 1em auto;
+	text-align: left;
+	width: 52em;
 }
 .staff-list li {
     display: inline-block;
     position: relative;
     width: 10em;
-    text-align: left;
+    text-align: center;
 }
 .staff-list span {
     display: inline-block;
