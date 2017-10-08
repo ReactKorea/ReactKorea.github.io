@@ -63,7 +63,6 @@ body {
     background: #055c8f;
     color: #fff;
     font-size: 16px;
-    font-weight: 300;
     font-family: -apple-system, BlinkMacSystemFont, 'Malgun Gothic', Dotum, 'Helvetica Neue', sans-serif;
 }
 .top-header {
@@ -356,6 +355,10 @@ section.even::after {
 .timetable strong {
     display: block;
 }
+.timetable .company {
+    opacity: .65;
+    font-size: .9em;
+}
 .program-timetable {
     border: 0;
 }
@@ -369,6 +372,34 @@ section.even::after {
 }
 .program-timetable td strong {
     display: block;
+}
+.speakers-list {
+    list-style: none;
+}
+.speakers-list li {
+    vertical-align: top;
+    margin: 0 20px 20px;
+    display: inline-block;
+}
+.speaker-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.speaker-company {
+    font-weight: 100;
+}
+.speaker-sns {
+    font-size: 1.4em;
+}
+.speaker-sns a {
+    display: inline-block;
+    text-decoration: none;
+    border: 0;
+    margin-left: .33em;
+}
+.speaker-sns a:first-child {
+    margin-left: 0;
 }
 .map {
     width: 100%;
