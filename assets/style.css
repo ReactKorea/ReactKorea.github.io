@@ -375,6 +375,7 @@ section.even::after {
 }
 .speakers-list {
     list-style: none;
+    padding: 0;
 }
 .speakers-list li {
     vertical-align: top;
