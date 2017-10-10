@@ -417,17 +417,43 @@ section.even::after {
     padding-bottom: 1em;
     box-sizing: border-box;
 }
+.section-sponsor a {
+	display: inline-block;
+	border: 0;
+	vertical-align: middle;
+}
 .section-sponsor img {
     margin: 1em 2em 0;
 	width: auto;
 	height: 48px;
 }
+.sponsor__99nerds img {
+	height: 64px;
+}
 @media (max-width: 780px) {
-	.section-sponsor img {
+	.section-sponsor a {
 		display: block;
-		margin: 1em auto;
+		position: relative;
 		width: 70%;
-		height: auto;
+		height: 0;
+		margin: 1em auto 0;
+	}
+	.sponsor__facebook {
+		padding-top: 19.48718%;
+	}
+	.sponsor__kosslab {
+		padding-top: 17.51152%;
+	}
+	.sponsor__99nerds {
+		padding-top: 22%;
+	}
+	.section-sponsor img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		margin: 0;
 	}
 }
 .staff-list {
